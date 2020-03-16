@@ -24,6 +24,7 @@
 module.exports = {
 	AccountStatus: require('./lib/accountstatus'),
 	AllData: require('./lib/alldata'),
+	Err: require('./lib/error'),
 	EUVAT: require('./lib/euvat'),
 	IBAN: require('./lib/iban'),
 	IBANStatus: require('./lib/ibanstatus'),
@@ -34,6 +35,9 @@ module.exports = {
 	Number: require('./lib/number'),
 	PKD: require('./lib/pkd'),
 	REGON: require('./lib/regon'),
+	SearchResult: require('./lib/searchresult'),
+	VATEntity: require('./lib/vatentity'),
+	VATPerson: require('./lib/vatperson'),
 	VATStatus: require('./lib/vatstatus'),
 	VIESData: require('./lib/viesdata'),
 	WLStatus: require('./lib/wlstatus')

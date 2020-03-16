@@ -89,3 +89,10 @@ nip24.getWhitelistStatusExt(NIP24.Number.NIP, nip, account_number).then((whiteli
 }).catch((e) => {
 	console.log(e.message);
 });
+
+// Wywołanie metody wyszukującej dane w rejestrze VAT
+nip24.searchVATRegistryExt(NIP24.Number.NIP, nip).then((result) => {
+	console.log(result.toString());
+}).catch((e) => {
+	console.log(e.message);
+});
